@@ -1,0 +1,223 @@
+<!doctype html>
+<html lang="en">
+
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css" />
+    <title>Bima Bayu</title>
+  </head>
+
+  <body>
+    <header>
+        <div id="them">
+			<div onclick="setDarkMode(true)" id="darkBtn" class=""> </div>
+			    <div onclick="setDarkMode(false)" id="lightBtn" class="is-hidden"> </div>
+		
+                    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                        <div class="container">
+                            <a class="navbar-brand" href="#">KlikPizza</a>
+                            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                            </button>
+                            <div class="navbar-collapse collapse" id="navbarCollapse">
+                                <div class="navbar-nav ms-auto">
+                                    <a class="nav-link active" aria-current="page" href="#beranda">Beranda</a>
+                                    <a class="nav-link active" aria-current="page" href="#section">Tentang</a>
+                                    <a class="nav-link active" aria-current="page" href="#layanan">Layanan</a>
+                                    <a class="nav-link active" aria-current="page" href="#menu">Menu</a>
+                                    <a class="nav-link active" aria-current="page" href="#contact">Kontak Kami</a>
+                                    <a class="nav-link active" aria-current="page" href="#contact">Kontak Kami</a>
+                                        </li>
+                                            li class="nav-item">
+                                        <button class="btn btn-link" onclick="myFunction()"><img src="images/moon.png" alt="" style="width: 20px;height: 20px;"></button>
+                                        </li>
+                                </div>
+                            </div>
+                        </div>
+                    </nav>
+                </div>
+            </div>
+        </div>    
+    </header>
+
+        <section id="header">
+			<div class="container">
+				<div class="row justify-content-center mt-5">
+					<div class="col-md-4 align-self-center">
+						<p style="font-weight: bold; color: #198754; font-size: 60px">Pizza Tasty</p>
+						<p class="fs-3" style="font-weight: bold">Cobain Pizza terlaris minggu ini.</p>
+						<button type="button" class="btn btn-success"><a href="#menu" style="text-decoration: none; color: white;">Lihat Menu</a></button>
+					</div>
+					<div class="col-md-4 mt-5">
+						<img src="/Images/home.png" alt="home" width="400" />
+					</div>
+				</div>
+			</div>
+		</section>
+
+
+        <section id="tentang">
+			<div class="container">
+				<div class="row justify-content-evenly mt-5">
+					<div class="col-lg-4">
+						<img src="images/about.jpg" alt="" width="400" style="border-radius: 5%" />
+					</div>
+					<div class="col-lg-4 mt-5">
+						<p style="font-weight: bold; color: #198754">Tentang kami</p>
+						<h3 style="font-weight: bold">Kami menyediakan berbagai makanan enak</h3>
+						<p>kami memasak makanan terbaik di seluruh kota, dengan layanan pelanggan yang sangat baik, makanan terbaik dan dengan harga terbaik, kunjungi kami.</p>
+						<button type="button" class="btn btn-success">Explore history</button>
+					</div>
+				</div>
+			</div>
+		</section>
+  
+
+        <section id="penawaran">
+			<div class="container">
+				<div class="row mt-5">
+					<div class="col text-center">
+						<p style="font-weight: bold; color: #198754">Penawaran</p>
+						<h3 style="font-weight: bold">Our amazing service</h3>
+					</div>
+				</div>
+				<div class="row text-center">
+					<div class="col-md-4">
+						<img src="images/dish.svg" alt=""/>
+						<p style="font-weight: bold">Makanan enak</p>
+						<p>kami menawarkan layanan berkualitas tinggi kepada klien kami selama bertahun-tahun,dengan makanan terbaik dan lezat di kota.</p>
+					</div>
+					<div class="col-md-4">
+						<img src="images/pizza.svg" alt=""/>
+						<p style="font-weight: bold">Makanan cepat saji</p>
+						<p>kami menawarkan layanan berkualitas tinggi kepada klien kami selama bertahun-tahun,dengan makanan terbaik dan lezat di kota.</p>
+					</div>
+					<div class="col-md-4">
+						<img src="images/truck.svg" alt=""/>
+						<p style="font-weight: bold">Pesan Antar</p>
+						<p>kami menawarkan layanan berkualitas tinggi kepada klien kami selama bertahun-tahun,dengan makanan terbaik dan lezat di kota.</p>
+					</div>
+				</div>
+			</div>
+		</section>
+
+
+        <section id="menu">
+			<div class="container">
+				<div class="row mt-5 mb-3">
+					<div class="col text-center">
+						<p style="font-weight: bold; color: #198754">Special</p>
+						<h3 style="font-weight: bold">Menu minggu ini</h3>
+					</div>
+				</div>
+				<div class="row justify-content-evenly mt-3">
+					<div class="col-lg-3 mb-3">
+						<div class="card shadow-sm" style="width: 16rem">
+							<img src="images/plate1.png" class="card-img-top" alt="..." />
+							<div class="card-body">
+								<h5>salad BBQ</h5>
+								<p>Delicious dish</p>
+								<h5>Rp.20.000</h5>
+								<a href="#" class="btn btn-success"
+									><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-cart" viewBox="0 0 16 16">
+										<path
+											d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .491.592l-1.5 8A.5.5 0 0 1 13 12H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5zM3.102 4l1.313 7h8.17l1.313-7H3.102zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2zm7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2z"
+								    /></svg>
+								></a>
+							</div>
+						</div>
+					</div>
+                    <div class="col-lg-3 mb-3">
+						<div class="card shadow-sm" style="width: 16rem">
+							<img src="images/plate2.png" class="card-img-top" alt="..." />
+							<div class="card-body">
+								<h5>salad with fish</h5>
+								<p>Delicious dish</p>
+								<h5>Rp.50.000</h5>
+								<a href="#" class="btn btn-success"
+									><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-cart" viewBox="0 0 16 16">
+										<path
+											d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .491.592l-1.5 8A.5.5 0 0 1 13 12H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5zM3.102 4l1.313 7h8.17l1.313-7H3.102zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2zm7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2z"
+									/></svg>
+								></a>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-3 mb-3">
+						<div class="card shadow-sm" style="width: 16rem">
+							<img src="images/plate3.png" class="card-img-top" alt="..." />
+							<div class="card-body">
+								<h5>spinach salad</h5>
+								<p>Delicious dish</p>
+								<h5>Rp.70.000</h5>
+								<a href="#" class="btn btn-success"
+									><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-cart" viewBox="0 0 16 16">
+										<path
+											d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .491.592l-1.5 8A.5.5 0 0 1 13 12H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5zM3.102 4l1.313 7h8.17l1.313-7H3.102zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2zm7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2z"
+									/></svg>
+								></a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+
+        <section id="aplikasi">
+			<div class="container">
+				<div class="row justify-content-evenly  mt-5">
+					<div class="col-lg-4 mb-3">
+						<img src="images/movil-app.png" alt="" width="400"/>
+					</div>
+					<div class="col-lg-4 mb-3 align-self-center">
+						<p style="font-weight: bold; color: #198754">Aplikasi</p>
+						<h3 style="font-weight: bold">Aplikasi tersedia !</h3>
+						<p>temukan aplikasi kami dan unduh,Anda dapat membuat reservasi,memesan makanan,melihat pengiriman Anda dan banyak lagi</p>
+						<div class="row justify-content-start">
+							<div class="col-3 me-3">
+								<img src="images/app1.png" alt="" width="100" />
+							</div>
+							<div class="col-3 me-3">
+								<img src="images/app2.png" alt="" width="100" />
+                            </div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+        <section id="kontak">
+            <div class="container">
+                <div class="row mt-5">
+                    <div class="col-md-8">
+						<p style="font-weight: bold; color: #198754">Let's talk</p>
+						<h3 style="font-weight: bold">Kontak kami</h3>
+                        <p>jika Anda ingin memesan meja di restoran kami,hubungi kami dan kami akan segera melayani Anda, dengan layanan obrolan 24/7 kami.</p>
+					</div>
+                    <div class="col-md align-self-center">
+                        <button type="button" class="btn btn-success">Kontak kami sekarang</button>
+                    </div>
+				</div>
+                </div>
+            </div>
+        </section>
+
+        <footer>
+            <div class="text-center mt-5">
+                <p style="font-size: small; color:#9b9b9b">©️ “Bima Bayu Saputra 20190140011”. All Right Reserved</p>
+            </div>
+        </footer>
+
+        <script src="main.js"></script>
+		<script>
+			function myFunction() {
+				var element = document.body;
+				element.classList.toggle("dark-mode");
+			}
+		</script>
+    </script>
+  </body>
+</html>
